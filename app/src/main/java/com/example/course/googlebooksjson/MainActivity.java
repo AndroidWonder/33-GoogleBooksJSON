@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 import android.view.Menu;
@@ -26,7 +27,7 @@ public class MainActivity extends Activity {
 	private TextView text = null;
 	
 	//messages from background thread contain data for UI
-	Handler handler = new Handler(){
+	Handler handler = new Handler(Looper.getMainLooper()){
 		public void handleMessage(Message msg) {
 			String title =(String) msg.obj;
 			text.append(title + "\n" +"\n");
@@ -51,8 +52,8 @@ public class MainActivity extends Activity {
 			
 			StringBuilder builder = new StringBuilder();
 
-			String Url = "https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor:keyes";
-			//String Url = "https://www.googleapis.com/books/v1/volumes?q=java+inauthor:savitch";
+			//String Url = "https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor:keyes";
+			String Url = "https://www.googleapis.com/books/v1/volumes?q=java+inauthor:savitch";
 			//String Url = "https://www.googleapis.com/books/v1/volumes?q=isbn:9781617291999";
 
 			InputStream is = null;
