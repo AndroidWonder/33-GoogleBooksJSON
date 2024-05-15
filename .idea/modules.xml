@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/33-GoogleBooksJSON.iml" filepath="$PROJECT_DIR$/33-GoogleBooksJSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/33-GoogleBooksJSON.iml" filepath="$PROJECT_DIR$/.idea/modules/33-GoogleBooksJSON.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/33-GoogleBooksJSON.app.unitTest.iml" />
     </modules>
   </component>
 </project>
